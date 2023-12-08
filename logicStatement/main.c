@@ -137,9 +137,9 @@ default:
 
 /* 编码规范： 变量尽量使用驼峰式命令 */
 
-int circleTimes = COUNT_NUM >> 1;
-int randomNum = 0;
-while (--circleTimes)//只要括号里不是0就继续， circleTimes-- 是先判断再运算；--circleTimes是先运算再判断
+ int circleTimes = COUNT_NUM >> 1;
+ int randomNum = 0;
+ while (--circleTimes)//只要括号里不是0就继续， circleTimes-- 是先判断再运算；--circleTimes是先运算再判断
 {
     
   randomNum = rand ()  % RANGE_NUM +1 ;
@@ -147,5 +147,5 @@ while (--circleTimes)//只要括号里不是0就继续， circleTimes-- 是先�
 }
 
 #endif
-return 0;
+ return 0;
 }
