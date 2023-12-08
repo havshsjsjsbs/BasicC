@@ -136,7 +136,7 @@ default:
 
 
 /* 编码规范： 变量尽量使用驼峰式命令 */
-
+#if 0
  int circleTimes = COUNT_NUM >> 1;
  int randomNum = 0;
  while (--circleTimes)//只要括号里不是0就继续， circleTimes-- 是先判断再运算；--circleTimes是先运算再判断
@@ -146,6 +146,16 @@ default:
   printf("randomNum:%d\n", randomNum) ;
 }
 
+ 
+    
 #endif
+
+#if 1
+    int varaNum = 0;
+    do
+    {
+        printf("varaNum:%d\n",  varaNum);
+    } while(varaNum);
+    
+#endif    
  return 0;
-}
