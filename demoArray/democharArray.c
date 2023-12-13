@@ -20,7 +20,7 @@ int main ()
  
 #endif
 
-#if 0
+#if 1
    /* 字符数组 */
    /* Q1 : 什么叫字符？*/
    char pNum = 'a';
@@ -32,9 +32,9 @@ int main ()
 
    char buffer[] = {'h', 'e', 'l', 'l', 'o','w', 'o', 'r', 'l', 'd'};
    int buflen = sizeof(buffer);
-   printf("buflen:%s\n", buflen);
+   printf("buflen:%d\n", buflen);
 #endif
-   
+#if 0
    /* 字符数组初始化定义的两种方式 */
    char buffer1[] = "helloworld";
    /* 如果是以双引号（字符串）的方式 默认加上'\0'*/
@@ -50,5 +50,6 @@ int main ()
 
     printf("buflen1 = %d,\tbuflen2 = %d\n",buflen1,buflen2);
     printf("buffer1 = %s,\tbuffer2 = %s\n",buffer1,buffer2);
+#endif
     return 0;
 }

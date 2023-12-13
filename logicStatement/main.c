@@ -83,7 +83,7 @@ int main ()
 /*坑1： 每一个擦色都有一个break:(注重需求) */
 int choice = 0;
 printf("请输入你的选项：");
-scanf ("%d", &choice)
+scanf ("%d", &choice);
 switch (choice)
 {
 case REGISTER:
